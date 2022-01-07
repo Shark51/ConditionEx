@@ -20,7 +20,7 @@ int main() {
 
 	}
 	std::cout << sum;
-	*/
+	
 	int input,num = 7;
 
 	while (1) {
@@ -39,7 +39,51 @@ int main() {
 
 	}
 	
+	
+	
+	using std::cout;
+	using std::cin;
+	using std::endl;
+	int input_data,total=0,a,b;
+
+	cout << "»çÄ¢¿¬»êmode¸¦ ¼±ÅÃÇÏ¼¼¿ä" << endl;
+	cout << "1.+ 2.- 3.* 4./ " << endl;
+	cin >> input_data;
+	cout << "°è»êÇÒ µÎ ¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À.";
+	cin >> a;cin>> b;
+
+	switch (input_data) {
+		
+	case 1:
+		cout << "µ¡¼À ¸ğµå";
+		cout << a + b;
+	case 2:
+		cout << "»¬¼À ¸ğµå";
+		cout << a - b;
+	case 3:
+		cout << "°ö¼À ¸ğµå";
+		cout << a * b;
+	case 4:
+		cout << "³ª´°¼À ¸ğµå";
+		cout << a / b<<"  ";
+		cout << a % b;
+
+
+	}
+	*/
+	using std::cout;
+	using std::cin;
+	using std::endl;
+	int A, B, C;
+
+	cin >> A; cin >> B; cin >> C;
+	cout << (A + B) % C<<endl;
+	cout << ((A%C)+(B%C)) % C << endl;
+	cout << (A * B) % C << endl;
+	cout << ((A%C) * (B%C)) % C << endl;
+
+
+
+
 	return 0;
-
-
 }
