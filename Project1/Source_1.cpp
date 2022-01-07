@@ -21,9 +21,24 @@ int main() {
 	}
 	std::cout << sum;
 	*/
+	int input,num = 7;
 
+	while (1) {
 
+		std::cout << " ¼ö ÀÔ·Â: ";
+		std::cin >> input;
 
+		if (num == input) {
+			std::cout << "¬Ãè½À´Ï´Ù. " << std::endl;
+			break;
+
+		}
+		else {
+			std::cout << "Æ²·È½À´Ï´Ù . " << std::endl;
+		}
+
+	}
+	
 	return 0;
 
 
